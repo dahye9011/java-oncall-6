@@ -2,11 +2,9 @@ package oncall;
 
 public class Employee {
     private final EmployeeName employeeName;
-    private final int workingDay;
 
-    public Employee(EmployeeName employeeName, int workingDay) {
+    public Employee(EmployeeName employeeName) {
         this.employeeName = employeeName;
-        this.workingDay = workingDay;
     }
 
     @Override
@@ -28,8 +26,7 @@ public class Employee {
         return employeeName.hashCode();
     }
 
-    // 내가 어제 일했는지 판단
-    public boolean isWorked(int day) {
-        return workingDay == day;
+    public EmployeeName getEmployeeName() {
+        return employeeName;
     }
 }
