@@ -44,4 +44,8 @@ public class EmployeeName {
     public int hashCode() {
         return value.hashCode();
     }
+
+    public String getValue() {
+        return value;
+    }
 }
