@@ -36,4 +36,8 @@ public class Employees {
             throw new IllegalArgumentException("[ERROR] 근무자는 중복될 수 없습니다.");
         }
     }
+
+    public List<Employee> getEmployeeList() {
+        return employeeList;
+    }
 }
