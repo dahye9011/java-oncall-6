@@ -10,4 +10,16 @@ public class Calendar {
         this.startDay = startDay;
         this.dayCount = dayCount;
     }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public String getStartDay() {
+        return startDay;
+    }
+
+    public int getDayCount() {
+        return dayCount;
+    }
 }
