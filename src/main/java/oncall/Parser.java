@@ -15,7 +15,7 @@ public class Parser {
         try {
             return Integer.parseInt(input.trim());
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException("[ERROR] ~은 숫자여야 합니다.");
+            throw new IllegalArgumentException("[ERROR] 월은 숫자여야 합니다.");
         }
     }
 }
